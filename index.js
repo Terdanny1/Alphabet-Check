@@ -24,7 +24,7 @@ function checkLetter() {
 
   //clear input field and reset text
   document.getElementById('input').value = ''
-  setTimeout (() => result.innerHTML = '', 4000)
+  setTimeout (() => result.innerHTML = '', 3000)
 
 }
 

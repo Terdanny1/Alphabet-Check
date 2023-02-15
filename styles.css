@@ -66,6 +66,11 @@ body {
     border-radius: 4px;
   }
 
+  button:hover{
+    background-color: rgb(240, 208, 161);
+    color: black;
+  }
+
   footer, p,a{
     color: black;
     margin: 0.5em;
