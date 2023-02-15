@@ -12,10 +12,19 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <main>
-        <div class="container">
-           <h1>Check The Alphabet</h1>
+    <div class="container">
+        <div class="heading">
+            <h1>Check The Alphabet</h1>
         </div>
-    </main>
+        <div class="card">
+            <input type="text" id="text" value="" placeholder="Input letter"><br>
+            <div class="button-div">
+                <button id="test" class="play-guess" onclick="test()">Guess</button>
+                <button id="reset" class="play-guess" onclick="reset()">Play Again</button>
+            </div>
+            
+        </div>
+    </div>
+    
 </body>
 </html>
