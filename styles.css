@@ -45,6 +45,10 @@ body {
     color: black;
   }
 
+  #answer{
+    color: black;
+  }
+
   .button-div{
   padding: 14px;
   border: none;
