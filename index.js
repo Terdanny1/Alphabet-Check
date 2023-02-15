@@ -23,8 +23,8 @@ function checkLetter() {
   }
 
   //clear input field and reset text
-//   document.getElementById('input').value = ''
-//   setTimeout (() => XPathResult.innerHTML = '', 3000)
+  document.getElementById('input').value = ''
+  setTimeout (() => result.innerHTML = '', 4000)
 
 }
 
@@ -32,4 +32,5 @@ function checkLetter() {
 function reset(){
     document.getElementById('input').value = ""
     document.getElementById('result').innerHTML=""
+    
 }
